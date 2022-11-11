@@ -1,98 +1,106 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
-  <body>
-    <header>
-      <h2>Already Registered? <u>LOGIN</u> now</h2>
-      <!-- image to be used:
+
+<head> </head>
+
+<body>
+  <header>
+    <h2>Already Registered? <u>LOGIN</u> now</h2>
+    <!-- image to be used:
       https://ninjasfiles.s3.amazonaws.com/0000000000001395.png -->
 
-      <form action="">
-        <label for="email">Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          placeholder="abc@gmail.com"
-          required
-        />
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" required />
-        <button type="submit">
-          <img
-            src="Media/coding ninjas logo.png"
-            alt=""
-            width="35"
-            height="10"
-          />Login
-        </button>
-        <br />
-        <br />
-        <hr />
-        <br /><br />
-        <a href="https://blog.codingninjas.in">Coding Ninjas Blogs</a>
-        <br /><br />
-        <img
-          src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png"
-          alt=""
-          width="100%"
-        />
-        <br /><br />
-        <hr />
-      </form>
-    </header>
+    <form action="">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="abc@gmail.com" required />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required />
+      <button type="submit">
+        <img src="Media/coding ninjas logo.png" alt="" width="35" height="10" />Login
+      </button>
+      <br />
+      <br />
+      <hr />
+      <br /><br />
+      <a href="https://blog.codingninjas.in">Coding Ninjas Blogs</a>
+      <br /><br />
+      <img src="https://ninjasfiles.s3.amazonaws.com/0000000000001395.png" alt="" width="100%" />
+      <br /><br />
+      <hr />
+    </form>
+  </header>
+
+  <br />
+  <br />
+
+  <main>
+    <section>
+      <h2><u>REGISTRATION</u></h2>
+    </section>
 
     <br />
     <br />
 
-    <main>
-      <section>
-        <h3><u>REGISTRATION</u></h3>
-      </section>
+    <section>
 
-      <br />
-      <br />
 
-      <section>
-        <h2></h2>
+      <table>
+        <form action="">
+          <tr>
+            <td><label for="fname">First Name:</label></td>
+            <td><input type="text" id="fname" name="fname" /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td><input type="text" name="lname" id="lname" /></td>
+          </tr>
+          <tr>
+            <td rowspan="3">Current Address:</td>
 
-        <table>
-          <form action="">
-            <tr>
-              <td><label for="fname">First Name:</label></td>
-              <td><input type="text" id="fname" name="fname" /></td>
-            </tr>
-            <tr>
-              <td><label for="lname">Last Name:</label></td>
-              <td><input type="text" name="lname" id="lname" /></td>
-            </tr>
-            <tr>
-              <td rowspan="3">Current Address:</td>
+            <td colspan="2">
+              <label for="flatno">Flat No./House No.</label>
+              <input type="text" id="flatno" name="flatno" />
+            </td>
+          </tr>
 
-              <td colspan="2">
-                <label for="flatno">Flat No./House No.</label>
-                <input type="text" id="flatno" name="flatno" />
-              </td>
-            </tr>
+          <tr>
+            <td colspan="2">
+              <label for="locality">Locality
+                &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input
+                type="text" name="locality" id="locality" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label
+                for="city">City&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label><input
+                type="text" name="city" id="city" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="3"><b>Is Current address and Permanent address same?</b>
+              <input type="radio" name="choice" id="" checked>Yes
+              <input type="radio" name="choice">No
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Email">Email:</label></td>
+            <td><input type="email" placeholder="abc@gmail.com" id="Email"></td>
+          </tr>
+          <tr>
+            <td><label for="Password">Password:</label></td>
+            <td><input type="password" id="Password"></td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td><button type="submit">Register</button></td>
+          </tr>
+        </form>
+      </table>
+    </section>
+  </main>
+</body>
 
-            <tr>
-              <td colspan="2">
-                <label for="locality"
-                  >Locality
-                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label
-                ><input type="text" name="locality" id="locality" />
-              </td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <label for="city"
-                  >City&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label
-                ><input type="text" name="city" id="city" />
-              </td>
-            </tr>
-          </form>
-        </table>
-      </section>
-    </main>
-  </body>
 </html>
