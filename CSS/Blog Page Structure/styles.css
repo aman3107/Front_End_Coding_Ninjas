@@ -1,0 +1,23 @@
+/* p {
+  color: blue;
+  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+} */
+header {
+  height: 400px;
+}
+
+article {
+  width: 1000px;
+}
+
+h1 {
+  font-size: 40px;
+  color: darkslategrey;
+}
+
+p {
+  color: dimgrey;
+}
