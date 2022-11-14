@@ -1,0 +1,23 @@
+html {
+  font-size: 30px;
+}
+
+#div1 {
+  height: 4rem;
+  /* 100vh; */
+  /* 200px; */
+  width: 6rem;
+  /* 100vw; */
+  /* 200px; */
+  background-color: blue;
+  /* border-width: 2px 4px 6px 8px;
+  border-style: solid;
+  border-color: red; */
+  border: ;
+}
+
+#div2 {
+  height: 50%;
+  width: 50%;
+  background-color: cyan;
+}
