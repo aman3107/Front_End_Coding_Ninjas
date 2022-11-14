@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- <html>
+  <head>
+    <title>Specificity</title>
+    <link rel="stylesheet" href="specificity.css" type="text/css"/ >
+  </head>
+  <body>
+    <p>Paragraph - Type</p>
+    <p class="color-red">Paragraph - type</p>
+    <p id="color-green" class="color-red">Paragraph - Type</p>
+    <p id="color-green" class="color-red" style="color: black">
+      Paragraph - Type
+    </p>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .p-class-style {
+        background-color: yellow;
+      }
+      p {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: red; width: 200px; height: 100px">
+      <p class="p-class-style" style="width: 200px">This is a paragraph.</p>
+    </div>
+  </body>
+</html>

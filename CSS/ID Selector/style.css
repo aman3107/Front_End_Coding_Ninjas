@@ -1,11 +1,17 @@
 p {
-  color: blue;
+  /* color: blue; */
   font-size: 20px;
-  font-family: serif;
+  /* font-family: sans-serif; */
 }
 
 h1 {
   font-size: 40px;
+  /* font-family: sans-serif; */
+}
+
+h1,
+p {
+  font-family: sans-serif;
 }
 
 /*h4{
@@ -20,6 +26,19 @@ h1 {
   font-family: cursive;
 }
 
+/* li h4 {
+  text-transform: uppercase;
+  font-family: cursive;
+} */
+
 #blog-desc {
   color: #314831;
+}
+
+#site-desc p {
+  color: red;
+}
+
+#blog-title:hover {
+  color: yellow;
 }
