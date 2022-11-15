@@ -1,6 +1,6 @@
-html {
+/* html {
   font-size: 30px;
-}
+} */
 
 #div1 {
   height: 4rem;
@@ -28,5 +28,17 @@ html {
   /* border-left: 4px solid red; */
   /* border-bottom-left-radius: 10px; */
   /* border-bottom-left-radius: 100%; */
-  border-bottom-width: medium;
+  /* border-bottom-width: medium; */
+  font-size: 30px;
+  color: blue;
+  font-weight: 700;
+  text-align: justify;
+  line-height: 30px;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-style: italic;
+}
+a {
+  text-decoration: none;
 }
