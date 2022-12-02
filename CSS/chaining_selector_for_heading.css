@@ -1,0 +1,67 @@
+/*-----header-----*/
+#main-header {
+  height: 400px;
+}
+
+#about-site {
+  color: grey;
+}
+
+/*-----main-----*/
+h1 {
+  font-size: 40px;
+  color: darkslategrey;
+}
+
+p {
+  color: dimgrey;
+}
+
+#blog-header h1 {
+  font-size: 3.2rem;
+}
+
+#blog-content {
+  width: 1000px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.h-style {
+  color: darkslategrey;
+}
+
+/*-----main-content-----*/
+h1.h-style {
+  font-family: sans-serif;
+}
+
+h4.h-style {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+#site-title a:link {
+  color: black;
+  font-size: 28px;
+  line-height: 1.25rem;
+  text-decoration: none;
+}
+
+#site-title a:hover {
+  color: orange;
+}
+
+main {
+  border: 5px dotted #ff6060;
+  border-radius: 50px 50px 0 0;
+  border-left: none;
+}
+
+.sources a {
+  text-decoration: none;
+}
+
+.sources a:hover {
+  color: black;
+}
