@@ -1,24 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Login Form</title>
-  </head>
-  <body>
-    <form action="">
-      <div>
-        <label for="username">Username :</label>
-        <br />
-        <input type="email" id="username" required />
-      </div>
-      <div>
-        <label for="password">Password :</label>
-        <br />
-        <input type="password" id="password" required />
-      </div>
-      <div>
-        <br />
-        <input type="submit" id="submit" />
-      </div>
-    </form>
-  </body>
+
+<head>
+  <title>Login Form</title>
+</head>
+
+<body>
+  <form action="">
+    <div>
+      <label for="username">Username :</label>
+      <br />
+      <input type="email" id="username" placeholder="abc@example.com" name="username" required />
+    </div>
+    <div>
+      <label for="password">Password :</label>
+      <br />
+      <input type="password" id="password" name="password" required />
+    </div>
+    <div>
+      <label for="number">Number</label>
+      <br>
+      <input type="number" id="number" name="number" value="123">
+    </div>
+    <div>
+      <label for="time">Time</label>
+      <br>
+      <input type="time" id="time" name="time">
+    </div>
+    <div>
+      <label for="Email">Email</label>
+      <br>
+      <input type="email" id="Email" name="email" value="abc@gmail.com" disabled>
+    </div>
+    <div>
+      <label for="url">URL</label>
+      <br>
+      <input type="url" id="url">
+    </div>
+    <div>
+      <label for="range">Range</label>
+      <br>
+      <input type="range" id="range">
+    </div>
+    <div>
+      <br />
+      <input type="submit" id="submit" />
+    </div>
+
+  </form>
+</body>
+
 </html>
