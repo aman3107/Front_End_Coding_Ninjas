@@ -56,3 +56,35 @@
   /* background-size: contain; */
   background-attachment: fixed;
 }
+
+#outer-div {
+  border: 2px solid black;
+  margin: 20px;
+  position: relative;
+}
+
+#div-1 {
+  height: 200px;
+  width: 200px;
+  background-color: #393a7b;
+}
+
+#div-2 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  /* position: absolute;
+  top: 40px;
+  left: 50%; */
+  position: fixed;
+  top: 50%;
+  left: 0px;
+  /* position: relative;
+  left: 20px;
+  bottom: 40px; */
+}
+#div-3 {
+  height: 200px;
+  width: 200px;
+  background-color: maroon;
+}
