@@ -1,0 +1,26 @@
+#outer-div1 {
+  height: 200px;
+  width: 200px;
+  background-color: #393a7b;
+  /* margin: 4px 10px 20px; */
+  /* margin-top: 10px; */
+  /* margin: auto; */
+  /* display: inline-block;
+  margin-right: 10px; */
+  padding: 20px 10px;
+}
+
+#inner-div1 {
+  height: 50%;
+  width: 50%;
+  background-color: cyan;
+}
+
+#outer-div2 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  /* display: inline-block;
+  margin-left: 10px; */
+  margin-top: 10px;
+}
