@@ -1,9 +1,10 @@
 #container {
-  height: 75vh;
-  width: 75vw;
+  height: 400px;
+  width: auto;
   background-color: lightgrey;
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
 }
 
 #container div {
