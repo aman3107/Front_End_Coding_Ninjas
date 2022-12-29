@@ -1,0 +1,53 @@
+/* #container {
+  height: 400px;
+  width: 400px;
+  margin: 40px;
+  border: 2px solid black;
+  background-image: linear-gradient(360deg, red, cyan, blue);
+  background: repeating-linear-gradient(to top right, red, blue 10px);
+  background: radial-gradient(red, blue, cyan);
+  background: linear-gradient(180deg, red, blue);
+} */
+
+/* p:active {
+  background-color: cyan;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: green;
+} */
+
+#lightbox {
+  width: 0;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 2s ease-in-out;
+  background: grad;
+}
+
+#lightbox:target {
+  width: 30%;
+  height: 30%;
+  background-color: lightgrey;
+  top: 25%;
+  left: 25%;
+  /* margin: 25%; */
+}
+
+.grad {
+  height: 150px;
+  width: 300px;
+  background-image: repeating-linear-gradient(
+    45deg,
+    #9e6df9,
+    #f77656 25%,
+    #5ffc87 50%
+  );
+}
