@@ -1,0 +1,31 @@
+#div1 {
+  width: 100%;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 600px) {
+  #div1 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #div1 {
+    width: 60%;
+  }
+}
+
+@media only print and (min-width: 572px) {
+  #div1 {
+    width: 50%;
+  }
+}
+
+/* @media screen and (max-width: 600px) 
+{ #div1 
+  { width: 100%; } 
+} 
+@media screen and (max-width: 900px) and (min-width: 600px) 
+{ #div1 
+  { width: 80%; } 
+} */
