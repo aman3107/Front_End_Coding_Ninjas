@@ -58,8 +58,3 @@ function multiply(x1, x2) {
 }
 
 console.log(multiply);
-
-var x = [1, 2, 3, 4];
-for (i = 0; i < x.length; i++) {
-  x.push(x[i]);
-}
