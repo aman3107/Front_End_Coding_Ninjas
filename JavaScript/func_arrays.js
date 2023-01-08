@@ -62,3 +62,113 @@ console.log(multiply);
 /* Functions and Scope */
 var name1 = "scope";
 console.log(name1);
+
+function scopeDemo() {
+  //var i1 = 10;
+  //console.log(i1);
+  //  var name1 = "function";
+  console.log(name1);
+}
+scopeDemo();
+//console.log(i1);
+console.log(name1);
+
+function c1() {
+  console.log("Inside c");
+}
+
+function b() {
+  c1();
+  console.log("Inside b");
+}
+
+function a() {
+  b();
+  console.log("Inside a");
+}
+
+a();
+console.log("Global Context");
+
+/* Functions Within Functions */
+
+var name2 = "aman";
+
+function outer() {
+  var outerVar = 10;
+  var name2 = "Payal";
+  function inner() {
+    var innerVar = 20;
+    var name2 = "Kajal";
+    console.log(name2);
+  }
+  inner();
+  console.log(name2);
+}
+
+outer();
+console.log(name2);
+function sqSum(a, b) {
+  function ssquare(x) {
+    return x * x;
+  }
+  return ssquare(a) + ssquare(b);
+}
+
+console.log(sqSum(1, 2));
+
+/* Functions Expressions */
+var factorial = function fact(n) {
+  var ans = 1;
+  for (i = 1; i <= n; i++) {
+    ans = ans * i;
+  }
+  return ans;
+};
+console.log(factorial);
+
+console.log(factorial(5));
+
+var factorial2 = function (n) {
+  var ans = 1;
+  for (i = 1; i <= n; i++) {
+    ans = ans * i;
+  }
+  return ans;
+};
+
+console.log(factorial2);
+
+/* Function Declaration and Expressions */
+
+/*console.log(fact(4));
+factorial = function fact(n){
+  var ans = 1;
+  for(var i= 1; i <= n; i++){
+    ans = ans *i;
+  }
+  return ans;
+}
+console.log(factorial(4));
+function fact(n){
+  var ans = 1;
+  for(var i = 1;i <= n; i++){
+    ans = ans *i;
+  }
+  return ans;
+}
+
+var factorial; 
+= function fact(n){
+  var ans = 1;
+  for(var i= 1; i <= n; i++){
+    ans = ans *i;
+  }
+  return ans;
+}*/
+
+function ncr(n, r, factorial) {
+  return factorial(n) / (factorial(r) * factorial(n - r));
+}
+
+console.log(ncr(5, 2, factorial));
