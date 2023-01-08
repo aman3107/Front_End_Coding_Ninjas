@@ -58,3 +58,7 @@ function multiply(x1, x2) {
 }
 
 console.log(multiply);
+
+/* Functions and Scope */
+var name1 = "scope";
+console.log(name1);
