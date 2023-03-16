@@ -1,0 +1,35 @@
+/* #box{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    margin: 100px auto;
+    cursor: pointer;
+}
+
+#box:hover{
+    box-shadow: 0px 0px 30px 0px grey;
+}
+
+h1{
+    text-align: center;
+}
+ */
+
+#outer{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding: 50px;
+    background-color: red;
+    box-sizing: border-box;
+} 
+
+#search{
+    border: 1px solid black;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+}
