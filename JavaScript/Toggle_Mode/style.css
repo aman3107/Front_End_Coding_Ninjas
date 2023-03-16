@@ -55,8 +55,3 @@ body.dark {background-color: #292c35;}
 .checkbox:checked + .checkbox-label .ball {
   transform: translateX(24px);
 }
-
-div{
-  border: 1
-  border: 2px solid black;px solid green;
-}
