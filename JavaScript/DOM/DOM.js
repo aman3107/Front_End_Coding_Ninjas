@@ -61,11 +61,24 @@ box.addEventListener("click", function () {
 });
 */
 
-var outerDiv = document.getElementById("outer");
-outerDiv.addEventListener("mouseover", function () {
-  console.log("Mouse Over");
-});
+// var outerDiv = document.getElementById("outer");
+// outerDiv.addEventListener("mouseover", function () {
+//   console.log("Mouse Over");
+// });
 
-outerDiv.addEventListener("mouseout", function () {
-  console.log("Mouse Out");
-});
+// outerDiv.addEventListener("mouseout", function () {
+//   console.log("Mouse Out");
+// });
+
+
+console.log(typeof(number));
+
+var arr1 = [1,2,-1,undefined,0,7];
+var arr2 =  [];
+for(var i in arr1){
+  if(typeof(arr1[i]) === 'number' && arr1[i] > 0){
+    arr2.push(arr1[i]*2);
+  }
+}
+
+console.log(arr2);

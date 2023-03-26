@@ -278,12 +278,119 @@
 // console.log(obj1);
 // console.log(obj2);
 
-class MyClass {
-    constructor(x) {
-        console.log("constructor is called!");
-        this.x=x;
-    }
- }
+// class MyClass {
+//     constructor(x) {
+//         console.log("constructor is called!");
+//         this.x=x;
+//     }
+//  }
  
- const obj = new MyClass();
- console.log(obj.x);
+//  const obj = new MyClass();
+//  console.log(obj.x);
+
+// var x = new Promise(() => {})
+// console.log(x)
+
+// async function x() {
+//     try{
+//       await Promise.reject("Rejected!!")
+//     } catch(e) {
+//       console.log(e)
+//     }
+//   }
+
+// x();
+
+// const promise1 = new Promise((resolve,reject) => { setTimeout(() => { resolve('a') }) })
+
+// const promise2 = new Promise((resolve,reject) => { resolve('b') })
+
+// const promise3 = new Promise((resolve,reject) => { setTimeout(() => { resolve('c') },10) })
+
+// Promise.all([promise1,promise2,promise3]) .then((msg) => { console.log(msg) })
+
+// async function x() {
+//     try{
+//       await Promise.reject("Rejected!!")
+//     } catch(e) {
+//       console.log(e)
+//     }
+//   }
+  
+//   x()
+//   .catch((msg) => {
+//     console.log(msg)
+//   })
+
+// x((a,b,c) => {
+//     return a+b+c
+//   },2,3,6)
+  
+//   function x(callback,a,b,c) {
+//     let str = ""
+//     setTimeout(() => {
+//       str += "x"
+//     });
+  
+//     str += callback(a,b,c)
+//     console.log(str)
+//   }
+
+// function x() {
+//     Promise.reject('x')
+//     return Promise.resolve('y')
+//   }
+  
+//   async function log() {
+//     const val =  await x()
+//     console.log(val)
+//   }
+  
+//   log()
+
+// const promise = new Promise((resolve,reject) => {
+//     resolve('a')
+//   })
+  
+//   setTimeout(() => {
+//     console.log('b')
+//   })
+  
+//   promise.then((msg) => {
+//     console.log(msg)
+//   })
+
+// const promise1 = new Promise((resolve,reject) => {
+//     setTimeout(() => {
+//       resolve('a')
+//     })
+//   })
+  
+//   const promise2 = new Promise((resolve,reject) => {
+//     resolve('b')
+//   })
+  
+//   const promise3 = new Promise((resolve,reject) => {
+//     setTimeout(() => {
+//       resolve('c')
+//     },10)
+//   })
+  
+  
+//   Promise.race([promise1,promise2,promise3])
+//   .then((msg) => {
+//     console.log(msg)
+//  })
+
+var students = ['Simran', 'Sakshi', 'Komal', 'Ishita', 'Manya'];
+var selected = students.slice(-4,-2);
+
+let numbers = [-23,12, -17, 19, -20, 0, 1,-12, -5, 5, 20];
+let even = numbers.filter(value => value%2==0);
+console.log(even);
+
+var greet = document.createElement("p");
+greet.innerHTML = `Hello ${name}`;
+var name = "Ninja";
+document.body.append(greet);
+document.body.append(`Nice to meet you, ${name}!`);
